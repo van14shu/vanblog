@@ -11,7 +11,7 @@ export default hopeTheme({
     // url: "https://mister-hope.com",
   },
 
-  
+  // 图标库
   iconAssets: "fontawesome-with-brands",
 
   // logo: "https://theme-hope-assets.vuejs.press/logo.svg",
@@ -27,8 +27,15 @@ export default hopeTheme({
   // 侧边栏
   sidebar,
 
+  // 切换深色模式
+  darkmode: "toggle",
+
+  // 全屏
+  // fullscreen: true,
+
   // 页脚
-  footer: "默认页脚",
+  footer: "MIT 协议 | Copyright © 2020 van.shu",
+  copyright: false,
   displayFooter: true,
 
   // 加密配置
