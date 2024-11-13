@@ -6,8 +6,8 @@ export default defineUserConfig({
   base: "/vanblog/",
 
   lang: "zh-CN",
-  title: "文档演示",
-  description: "vuepress-theme-hope 的文档演示",
+  title: "ArchitectRoad",
+  description: "Java 架构师之路",
 
   theme,
 
