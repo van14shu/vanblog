@@ -9,13 +9,13 @@
     "docs:clean-dev": "vuepress-vite dev src --clean-cache",
     "dev": "vuepress-vite dev src",
     "docs:update-package": "npx vp-update"
-    
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.18",
     "sass-embedded": "^1.79.5",
     "vue": "^3.5.12",
     "vuepress": "2.0.0-rc.18",
+    "vuepress-plugin-search-pro": "^2.0.0-rc.59",
     "vuepress-theme-hope": "2.0.0-rc.59"
   }
 }
