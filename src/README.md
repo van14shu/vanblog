@@ -8,10 +8,10 @@ bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
 heroText: Architect Road
-tagline: Java 架构笔记
+tagline: 以匠心磨练 Java 技艺，以初心探索架构之道。永怀学徒之心，孜孜不倦，追求卓越。
 actions:
-  - text: 开始阅读
-    icon: lightbulb
+  - text: 码神启动->
+    # icon: lightbulb
     link: ./java-core/
     type: primary
 
@@ -90,7 +90,7 @@ actions:
   - 2PC/3PC
   - TCC
   - SAGA模式
-  - 最终一致性
+  - 最一致性
 
 ### 2. 高并发架构设计
 - 缓存架构
@@ -227,7 +227,7 @@ actions:
 
 ## 总结
 
-成为一名优秀的Java架构师是一个渐进的过程，需要在技术深度、广度和软技能等多个维度持续提升。建议：
+成为一名优秀的Java架构师是一个渐进的过，需要在技术深度、广度和软技能等多个维度持续提升。建议：
 
 1. 建立完整的知识体系
 2. 积累实际项目经验
@@ -236,3 +236,5 @@ actions:
 5. 注重软技能提升
 
 记住："架构师"不仅是一个职位，更是一种责任和能力的体现。需要在技术、业务、管理等多个维度不断成长。
+
+探索代码的无限可能，分享技术的纯粹热爱。在这里，每一行代码都是一次思维的跃迁，每篇文章都是知识的沉淀。
