@@ -38,6 +38,16 @@ export default hopeTheme({
   copyright: false,
   displayFooter: true,
 
+  // 显示设置页面信息
+  pageInfo: ["Author","Category", "Tag", "ReadingTime"],
+
+  // 最后更新时间
+  lastUpdated: false,
+  // 编辑链接
+  editLink: false,
+  // 贡献者
+  contributors: false,
+
   // 加密配置
   encrypt: {
     config: {
