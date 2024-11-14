@@ -11,6 +11,7 @@ export default defineUserConfig({
 
   theme,
 
+  // 添加图标
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' ,size: 'any'}],
   ],
