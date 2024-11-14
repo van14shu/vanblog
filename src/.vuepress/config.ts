@@ -11,6 +11,10 @@ export default defineUserConfig({
 
   theme,
 
+  head: [
+    ['link', { rel: 'icon', href: '/vanblog/favicon.ico' ,size: 'any'}],
+  ],
+
   // 和 PWA 一起启用
   // shouldPrefetch: false,
 });
