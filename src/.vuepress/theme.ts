@@ -8,7 +8,6 @@ export default hopeTheme({
 
   author: {
     name: "van.shu",
-    // url: "https://mister-hope.com",
   },
 
   // 图标库

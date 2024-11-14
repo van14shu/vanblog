@@ -4,6 +4,7 @@ export default sidebar({
   "/java-core/": "structure",
   "/distribute-system/": "structure",
   "/tools/": "structure",
+  "/ssm/": "structure",
   "/": [
 
     // {
