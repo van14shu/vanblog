@@ -3,7 +3,7 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/vanblog/",
+  // base: "/vanblog/",
 
   lang: "zh-CN",
   title: "ArchitectRoad",
@@ -12,7 +12,7 @@ export default defineUserConfig({
   theme,
 
   head: [
-    ['link', { rel: 'icon', href: '/vanblog/favicon.ico' ,size: 'any'}],
+    ['link', { rel: 'icon', href: '/favicon.ico' ,size: 'any'}],
   ],
 
   // 和 PWA 一起启用
