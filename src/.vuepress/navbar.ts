@@ -4,7 +4,6 @@ export default navbar([
   "/",
   "/java-core/",
   "/distribute-system/",
-  "/demo/",
   "/tools/",
   {
     text: "指南",
