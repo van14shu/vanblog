@@ -7,7 +7,7 @@ heroImage: architect-road-logo.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
-heroText: ArchitectRoad
+heroText: Architect Road
 tagline: Java 架构笔记
 actions:
   - text: 开始阅读
