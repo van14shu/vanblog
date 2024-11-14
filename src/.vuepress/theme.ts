@@ -47,6 +47,9 @@ export default hopeTheme({
   // 贡献者
   contributors: false,
 
+  // 右侧目录
+  toc: true,
+
   // 加密配置
   encrypt: {
     config: {
@@ -66,6 +69,8 @@ export default hopeTheme({
   plugins: {
     // 开始搜索服务
     searchPro: true,
+
+
 
     // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
     // comment: {
@@ -215,4 +220,6 @@ export default hopeTheme({
     //   plugins: ["highlight", "math", "search", "notes", "zoom"],
     // },
   },
+
+
 });
