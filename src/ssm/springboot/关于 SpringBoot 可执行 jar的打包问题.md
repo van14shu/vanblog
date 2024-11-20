@@ -1,6 +1,6 @@
 ---
 title: SpringBoot 可执行 jar 的打包问题
-order: 2
+order: 20
 category:
   - SpringBoot
 tag:

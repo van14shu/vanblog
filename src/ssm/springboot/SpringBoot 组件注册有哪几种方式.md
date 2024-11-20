@@ -1,6 +1,6 @@
 ---
 title: SpringBoot 组件注册的几种方式
-order: 10
+order: 30
 ---
 
 

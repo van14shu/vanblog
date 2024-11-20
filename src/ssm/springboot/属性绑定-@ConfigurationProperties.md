@@ -1,6 +1,6 @@
 ---
-title: 属性绑定
-order: 30
+title: 属性绑定-@ConfigurationProperties
+order: 50
 category:
   - SpringBoot
 tag:
@@ -361,6 +361,10 @@ sequenceDiagram
     
     Processor-->>Context: 12. 注册绑定后的Bean
 ~~~
+
+
+
+
 
 
 

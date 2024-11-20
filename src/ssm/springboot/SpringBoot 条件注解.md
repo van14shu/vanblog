@@ -1,6 +1,6 @@
 ---
 title: 条件注解：实现 SpringBoot 自动配置的关键
-order: 11
+order: 40
 category: SpringBoot
 tag:
   - SpringBoot

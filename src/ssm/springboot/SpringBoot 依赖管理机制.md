@@ -1,6 +1,6 @@
 ---
 title: SpringBoot 是如何进行依赖管理的
-order: 1
+order: 10
 category:
   - SpringBoot
 tag:

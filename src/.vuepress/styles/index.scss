@@ -1,1 +1,26 @@
-// place your custom styles here
+.vp-toc-wrapper {
+  .vp-toc-list {
+    // 显示所有层级的列表
+    .vp-toc-item {
+      display: block !important;
+      
+      // 所有 level4 及以上的链接
+      .vp-toc-link.level4,
+      .vp-toc-link.level5,
+      .vp-toc-link.level6 {
+        display: block !important;
+      }
+    }
+
+    // 调整不同层级的缩进
+    .vp-toc-link.level4 {
+      padding-left: 2rem;
+    }
+    .vp-toc-link.level5 {
+      padding-left: 2.5rem;
+    }
+    .vp-toc-link.level6 {
+      padding-left: 3rem;
+    }
+  }
+}
