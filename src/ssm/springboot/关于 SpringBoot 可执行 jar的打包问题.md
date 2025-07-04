@@ -8,8 +8,6 @@ tag:
   - Maven
 ---
 
-
-
 ## 单系统打包问题
 
 在 SpringBoot 项目中，如果继承了 `spring-boot-starter-parent`，它已经默认配置了 `spring-boot-maven-plugin` 并启用了 `repackage` 功能。

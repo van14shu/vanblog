@@ -69,8 +69,51 @@ export default hopeTheme({
 
   // 在这里配置主题提供的插件
   plugins: {
-    // 开始搜索服务
-    searchPro: true,
+    // 高级搜索配置
+    searchPro: {
+      // 索引全部内容
+      indexContent: true,
+      // 添加支持的语言
+      locales: {
+        "/": {
+          // 覆盖默认占位符
+          placeholder: "搜索文档",
+        },
+      },
+      // 自定义字段
+      customFields: [
+        {
+          getter: (page) => page.frontmatter.category,
+          formatter: "分类：$content",
+        },
+        {
+          getter: (page) => page.frontmatter.tag,
+          formatter: "标签：$content",
+        },
+      ],
+      // 搜索过滤器
+      filter: (page) => {
+        // 排除一些页面
+        if (page.frontmatter.search === false) return false;
+        if (page.frontmatter.home) return false;
+        if (page.path.startsWith("/demo/")) return false;
+        return true;
+      },
+      // 搜索热键
+      hotKeys: [
+        { key: "k", ctrl: true },
+        { key: "/", ctrl: true },
+        { key: "s", ctrl: true },
+      ],
+      // 搜索延迟 (新版本属性名)
+      searchDelay: 150,
+      // 搜索历史数量 (新版本属性名)
+      resultHistoryCount: 5,
+      // 搜索结果数量
+      resultCount: 15,
+      // 搜索工作器
+      worker: true,
+    },
 
     // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
     // comment: {

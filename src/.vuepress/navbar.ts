@@ -5,7 +5,9 @@ export default navbar([
   "/java-core/",
   "/ssm/",
   "/distribute-system/",
+  "/cs-basics/",
   "/tools/",
+  "/knowledge-system/",
   {
     text: "资源链接",
     icon:"link",

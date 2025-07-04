@@ -3,8 +3,10 @@ import { sidebar } from "vuepress-theme-hope";
 export default sidebar({
   "/java-core/": "structure",
   "/distribute-system/": "structure",
+  "/cs-basics/": "structure",
   "/tools/": "structure",
   "/ssm/": "structure",
+  "/knowledge-system/": "structure",
   "/": [
 
     // {
