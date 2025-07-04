@@ -69,17 +69,11 @@ export default hopeTheme({
 
   // 在这里配置主题提供的插件
   plugins: {
-    // 使用最基础的 searchPro 配置，避免版本兼容问题
-    searchPro: {
-      // 只索引标题，不索引全部内容
-      indexContent: false,
-      // 基础配置
-      locales: {
-        "/": {
-          placeholder: "搜索文档",
-        },
-      },
-    },
+    // 完全禁用 searchPro 避免版本兼容问题
+    // searchPro: false,
+
+    // 暂时不使用任何搜索插件，让网站正常运行
+    // 后续可以考虑使用 Algolia DocSearch 或其他方案
 
     // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
     // comment: {
