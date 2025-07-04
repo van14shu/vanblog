@@ -3,6 +3,7 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
+  // 如果部署到子路径，需要设置 base
   // base: "/vanblog/",
 
   lang: "zh-CN",
