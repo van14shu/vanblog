@@ -69,44 +69,17 @@ export default hopeTheme({
 
   // 在这里配置主题提供的插件
   plugins: {
-    // 临时简化搜索配置用于生产环境测试
-    searchPro: true,
-
-    // 高级搜索配置（如果简化版本工作正常，可以逐步启用）
-    // searchPro: {
-    //   // 索引全部内容
-    //   indexContent: true,
-    //   // 添加支持的语言
-    //   locales: {
-    //     "/": {
-    //       // 覆盖默认占位符
-    //       placeholder: "搜索文档",
-    //     },
-    //   },
-    //   // 自定义字段
-    //   customFields: [
-    //     {
-    //       getter: (page) => page.frontmatter.category,
-    //       formatter: "分类：$content",
-    //     },
-    //     {
-    //       getter: (page) => page.frontmatter.tag,
-    //       formatter: "标签：$content",
-    //     },
-    //   ],
-    //   // 搜索热键
-    //   hotKeys: [
-    //     { key: "k", ctrl: true },
-    //     { key: "/", ctrl: true },
-    //     { key: "s", ctrl: true },
-    //   ],
-    //   // 搜索延迟 (新版本属性名)
-    //   searchDelay: 150,
-    //   // 搜索历史数量 (新版本属性名)
-    //   resultHistoryCount: 5,
-    //   // 搜索结果数量
-    //   resultCount: 15,
-    // },
+    // 使用最基础的 searchPro 配置，避免版本兼容问题
+    searchPro: {
+      // 只索引标题，不索引全部内容
+      indexContent: false,
+      // 基础配置
+      locales: {
+        "/": {
+          placeholder: "搜索文档",
+        },
+      },
+    },
 
     // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
     // comment: {
